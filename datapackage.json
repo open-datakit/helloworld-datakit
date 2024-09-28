@@ -1,5 +1,5 @@
 {
-  "title": "Example datpackage",
+  "title": "Hello world!",
   "description": "An example opendata.studio datapackage containing some simple algorithms",
   "profile": "opends-analysis-datapackage",
   "algorithms": [
@@ -8,9 +8,9 @@
   "runs": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/opendatastudio/example-datapackage",
-    "name": "opendatastudio/example-datapackage"
+    "url": "https://github.com/opendatastudio/helloworld-datapackage",
+    "name": "opendatastudio/helloworld-datapackage"
   },
   "created": 1727422563,
-  "updated": 1727422677
+  "updated": 1727525699
 }

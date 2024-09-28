@@ -1,0 +1,44 @@
+{
+  "name": "addition",
+  "title": "Addition",
+  "description": "A simple algorithm that adds two numbers together",
+  "profile": "opends-algorithm",
+  "code": "algorithm.py",
+  "container": "opends/python-run-base:v1",
+  "signature": {
+    "inputs": [
+      {
+        "name": "a",
+        "title": "A",
+        "description": "A number to add",
+        "type": "number",
+        "null": false,
+        "default": {
+          "value": 40
+        }
+      },
+      {
+        "name": "b",
+        "title": "B",
+        "description": "A second number to add",
+        "type": "number",
+        "null": false,
+        "default": {
+          "value": 2
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "name": "result",
+        "title": "A + B",
+        "description": "The result of the addition",
+        "type": "number",
+        "null": true,
+        "default": {
+          "value": null
+        }
+      }
+    ]
+  }
+}
