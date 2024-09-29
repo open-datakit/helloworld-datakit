@@ -1,5 +1,5 @@
-def main(a, b):
+def main(x, y):
     """Add two numbers together"""
     return {
-        "result": a + b,
+        "result": x + y,
     }

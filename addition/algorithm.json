@@ -8,8 +8,8 @@
   "signature": {
     "inputs": [
       {
-        "name": "a",
-        "title": "A",
+        "name": "x",
+        "title": "X",
         "description": "A number to add",
         "type": "number",
         "null": false,
@@ -18,8 +18,8 @@
         }
       },
       {
-        "name": "b",
-        "title": "B",
+        "name": "y",
+        "title": "Y",
         "description": "A second number to add",
         "type": "number",
         "null": false,
@@ -31,7 +31,7 @@
     "outputs": [
       {
         "name": "result",
-        "title": "A + B",
+        "title": "X + Y",
         "description": "The result of the addition",
         "type": "number",
         "null": true,
