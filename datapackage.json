@@ -3,7 +3,7 @@
   "description": "An example opendata.studio datapackage containing some simple algorithms",
   "profile": "opends-analysis-datapackage",
   "algorithms": [
-    "example1"
+    "addition"
   ],
   "runs": [],
   "repository": {
@@ -12,5 +12,5 @@
     "name": "opendatastudio/helloworld-datapackage"
   },
   "created": 1727422563,
-  "updated": 1727525699
+  "updated": 1727568400
 }
