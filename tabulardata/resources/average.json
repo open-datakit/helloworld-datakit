@@ -1,0 +1,24 @@
+{
+  "name": "average",
+  "title": "Average data",
+  "description": "Averaged time series data",
+  "profile": "tabular-data-resource",
+  "schema": {
+    "primaryKey": "time",
+    "fields": [
+      {
+        "name": "time",
+        "title": "Time",
+        "unit": "s",
+        "type": "number"
+      },
+      {
+        "name": "average",
+        "title": "Average",
+        "unit": "",
+        "type": "number"
+      }
+    ]
+  },
+  "data": []
+}

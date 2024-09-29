@@ -1,6 +1,6 @@
 {
-  "name": "addition",
-  "title": "Addition",
+  "name": "helloworld",
+  "title": "Hello world!",
   "description": "A simple algorithm that adds two numbers together",
   "profile": "opends-algorithm",
   "code": "algorithm.py",
