@@ -1,7 +1,7 @@
 {
-  "name": "average",
-  "title": "Average data",
-  "description": "Averaged time series data",
+  "name": "mean",
+  "title": "Mean",
+  "description": "The mean of the Y values in the input data",
   "profile": "tabular-data-resource",
   "schema": {
     "primaryKey": "time",
@@ -13,8 +13,8 @@
         "type": "number"
       },
       {
-        "name": "average",
-        "title": "Average",
+        "name": "mean",
+        "title": "Mean",
         "unit": "",
         "type": "number"
       }

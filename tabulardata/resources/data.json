@@ -23,6 +23,12 @@
         "title": "Y2",
         "unit": "",
         "type": "number"
+      },
+      {
+        "name": "y3",
+        "title": "Y3",
+        "unit": "",
+        "type": "number"
       }
     ]
   },
