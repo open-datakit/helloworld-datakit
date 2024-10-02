@@ -1,0 +1,56 @@
+{
+  "name": "helloworld",
+  "title": "Time series average",
+  "description": "A simple algorithm that takes a time series input table and averages its values on the time axis",
+  "profile": "opends-algorithm",
+  "code": "algorithm.py",
+  "container": "opends/python-run-base:v1",
+  "signature": {
+    "inputs": [
+      {
+        "name": "data",
+        "title": "Data",
+        "description": "Input time series",
+        "type": "resource",
+        "profile": "tabular-data-resource",
+        "null": false,
+        "default": {
+          "resource": "data"
+        }
+      },
+      {
+        "name": "function",
+        "title": "Function",
+        "description": "The function to use for averaging (mean or median)",
+        "type": "string",
+        "null": false,
+        "enum": [
+          {
+            "title": "Mean",
+            "value": "mean"
+          },
+          {
+            "title": "Median",
+            "value": "median"
+          }
+        ],
+        "default": {
+          "value": "mean"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "name": "result",
+        "title": "Result",
+        "description": "Averaged result",
+        "type": "resource",
+        "profile": "tabular-data-resource",
+        "null": true,
+        "default": {
+          "resource": "result"
+        }
+      }
+    ]
+  }
+}
