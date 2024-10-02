@@ -21,14 +21,14 @@
     ],
     "outputs": [
       {
-        "name": "mean",
-        "title": "Mean",
-        "description": "Output mean",
+        "name": "result",
+        "title": "Result",
+        "description": "Averaged result",
         "type": "resource",
         "profile": "tabular-data-resource",
         "null": true,
         "default": {
-          "resource": "mean"
+          "resource": "result"
         }
       }
     ]

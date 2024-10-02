@@ -1,5 +1,5 @@
 def main(data):
-    """Take the mean of a time series along the time axis"""
+    """Take the average of the input data along the long axis"""
     return {
-        "mean": data.mean(axis=1).to_frame(name="mean"),
+        "result": data.mean(axis=1).to_frame(name="result"),
     }
