@@ -1,0 +1,24 @@
+{
+  "name": "result",
+  "title": "Result",
+  "description": "The average of the Y values in the input data",
+  "profile": "tabular-data-resource",
+  "schema": {
+    "primaryKey": "time",
+    "fields": [
+      {
+        "name": "time",
+        "title": "Time",
+        "unit": "s",
+        "type": "number"
+      },
+      {
+        "name": "result",
+        "title": "Result",
+        "unit": "",
+        "type": "number"
+      }
+    ]
+  },
+  "data": []
+}
