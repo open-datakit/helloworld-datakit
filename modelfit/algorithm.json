@@ -1,0 +1,78 @@
+{
+  "name": "modelfit",
+  "title": "Model fitting example",
+  "description": "A simple model fitting algorithm demonstrating relationships",
+  "profile": "opends-algorithm",
+  "code": "algorithm.py",
+  "container": "opends/python-run-base:v1",
+  "signature": {
+    "inputs": [
+      {
+        "name": "data",
+        "title": "Data",
+        "description": "Input data to fit to model",
+        "type": "resource",
+        "profile": "tabular-data-resource",
+        "null": false,
+        "default": {
+          "resource": "data"
+        }
+      },
+      {
+        "name": "model",
+        "title": "Model",
+        "description": "The model to use for fitting",
+        "type": "string",
+        "null": false,
+        "enum": [
+          {
+            "title": "Linear",
+            "value": "linear"
+          },
+          {
+            "title": "Quadratic",
+            "value": "quadratic"
+          }
+        ],
+        "default": {
+          "value": "linear"
+        }
+      },
+      {
+        "name": "inputParams",
+        "title": "Model",
+        "description": "The input fit parameters",
+        "type": "resource",
+        "profile": "tabular-data-resource",
+        "null": false,
+        "default": {
+          "resource": "inputParams"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "name": "outputParams",
+        "title": "Fit",
+        "description": "The optimised fit parameters",
+        "type": "resource",
+        "profile": "tabular-data-resource",
+        "null": true,
+        "default": {
+          "resource": "outputParams"
+        }
+      },
+      {
+        "name": "fit",
+        "title": "Fit",
+        "description": "The optimised fit curve",
+        "type": "resource",
+        "profile": "tabular-data-resource",
+        "null": true,
+        "default": {
+          "resource": "fit"
+        }
+      }
+    ]
+  }
+}

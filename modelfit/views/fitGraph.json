@@ -1,0 +1,10 @@
+{
+  "name": "fitGraph",
+  "specType": "matplotlib",
+  "specFile": "fitGraph.py",
+  "container": "opends/python-run-base:v1",
+  "resources": [
+    "data",
+    "fit"
+  ]
+}

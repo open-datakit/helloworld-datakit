@@ -3,10 +3,11 @@
   "description": "An example opendata.studio dataflow containing some simple algorithms",
   "profile": "opends-analysis-dataflow",
   "algorithms": [
-    "helloworld",
+    "addition",
     "tabulardata",
     "multipleruns",
-    "containers"
+    "containers",
+    "modelfit"
   ],
   "runs": [],
   "repository": {
@@ -15,5 +16,5 @@
     "name": "opendatastudio/helloworld-dataflow"
   },
   "created": 1727422563,
-  "updated": 1727946209
+  "updated": 1728022392
 }

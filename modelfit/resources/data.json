@@ -1,0 +1,24 @@
+{
+  "name": "data",
+  "title": "Data",
+  "description": "Data to fit to model",
+  "profile": "tabular-data-resource",
+  "schema": {
+    "primaryKey": "x",
+    "fields": [
+      {
+        "name": "x",
+        "title": "X",
+        "unit": "",
+        "type": "number"
+      },
+      {
+        "name": "y",
+        "title": "Y",
+        "unit": "",
+        "type": "number"
+      }
+    ]
+  },
+  "data": []
+}

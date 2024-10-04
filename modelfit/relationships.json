@@ -1,0 +1,96 @@
+{
+  "name": "relationships",
+  "title": "Relationships",
+  "descriptions": "Relationship rules for model fit algorithm inputs and outputs",
+  "profile": "opends-relationships",
+  "algorithm": "modelfit",
+  "relationships": [
+    {
+      "source": "model",
+      "rules": [
+        {
+          "description": "Linear model parameter defaults",
+          "type": "value",
+          "values": [
+            "linear"
+          ],
+          "targets": [
+            {
+              "name": "inputParams",
+              "type": "resource",
+              "data": [
+                {
+                  "name": "a",
+                  "init": 3
+                },
+                {
+                  "name": "b",
+                  "init": 10
+                }
+              ]
+            },
+            {
+              "name": "outputParams",
+              "type": "resource",
+              "data": [
+                {
+                  "name": "a",
+                  "value": null
+                },
+                {
+                  "name": "b",
+                  "value": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Quadratic model parameter defaults",
+          "type": "value",
+          "values": [
+            "quadratic"
+          ],
+          "targets": [
+            {
+              "name": "inputParams",
+              "type": "resource",
+              "data": [
+                {
+                  "name": "a",
+                  "init": 3
+                },
+                {
+                  "name": "b",
+                  "init": 10
+                },
+                {
+                  "name": "c",
+                  "init": 5
+                }
+              ]
+            },
+            {
+              "name": "outputParams",
+              "type": "resource",
+              "data": [
+                {
+                  "name": "a",
+                  "value": null
+                },
+                {
+                  "name": "b",
+                  "value": null
+                },
+                {
+                  "name": "c",
+                  "value": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

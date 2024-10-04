@@ -1,0 +1,34 @@
+{
+  "name": "inputParams",
+  "title": "Input parameters",
+  "description": "Fit parameter initial guesses",
+  "profile": "tabular-data-resource",
+  "schema": {
+    "primaryKey": "name",
+    "fields": [
+      {
+        "name": "name",
+        "title": "Name",
+        "description": "The name of the parameter",
+        "type": "string"
+      },
+      {
+        "name": "init",
+        "title": "Initial value",
+        "description": "The initial guess for the parameter value",
+        "type": "number",
+        "unit": ""
+      }
+    ]
+  },
+  "data": [
+    {
+      "name": "a",
+      "init": 3
+    },
+    {
+      "name": "b",
+      "init": 10
+    }
+  ]
+}
