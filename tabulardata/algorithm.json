@@ -1,5 +1,5 @@
 {
-  "name": "helloworld",
+  "name": "tabulardata",
   "title": "Time series average",
   "description": "A simple algorithm that takes a time series input table and averages its values on the time axis",
   "profile": "opends-algorithm",
