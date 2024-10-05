@@ -7,7 +7,8 @@
     "tabulardata",
     "multipleruns",
     "containers",
-    "modelfit"
+    "modelfit",
+    "metaschemas"
   ],
   "runs": [],
   "repository": {
@@ -16,5 +17,5 @@
     "name": "opendatastudio/helloworld-dataflow"
   },
   "created": 1727422563,
-  "updated": 1728022392
+  "updated": 1728114623
 }

@@ -1,0 +1,8 @@
+{
+  "name": "data",
+  "title": "Data",
+  "description": "Time series data",
+  "profile": "tabular-data-resource",
+  "schema": {},
+  "data": []
+}
