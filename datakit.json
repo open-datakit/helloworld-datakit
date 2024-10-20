@@ -1,7 +1,7 @@
 {
   "title": "Hello world!",
-  "description": "An example opendata.studio dataflow containing some simple algorithms",
-  "profile": "opends-analysis-dataflow",
+  "description": "An example opendata.studio datakit containing some simple algorithms",
+  "profile": "opends-analysis-datakit",
   "algorithms": [
     "addition",
     "tabulardata",
@@ -13,8 +13,8 @@
   "runs": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/opendatastudio/helloworld-dataflow",
-    "name": "opendatastudio/helloworld-dataflow"
+    "url": "https://github.com/opendatastudio/helloworld-datakit",
+    "name": "opendatastudio/helloworld-datakit"
   },
   "created": 1727422563,
   "updated": 1728114623
