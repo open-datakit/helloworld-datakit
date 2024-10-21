@@ -4,7 +4,7 @@
   "description": "A simple algorithm that adds two numbers together",
   "profile": "opends-algorithm",
   "code": "algorithm.py",
-  "container": "opends/python-run-base:v1",
+  "container": "opends/python-run-base:v0",
   "signature": {
     "inputs": [
       {
