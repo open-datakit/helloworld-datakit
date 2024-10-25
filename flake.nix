@@ -19,7 +19,7 @@
         buildInputs = [
           pkgs.pre-commit
           pkgs.python311
-          # opends dependencies
+          # opendatakit dependencies
           pkgs.python311Packages.pandas
           pkgs.python311Packages.matplotlib
         ];

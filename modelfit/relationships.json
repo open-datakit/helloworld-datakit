@@ -2,7 +2,7 @@
   "name": "relationships",
   "title": "Relationships",
   "descriptions": "Relationship rules for model fit algorithm inputs and outputs",
-  "profile": "opends-relationships",
+  "profile": "datakit-relationships",
   "algorithm": "modelfit",
   "relationships": [
     {

@@ -2,9 +2,9 @@
   "name": "multipleruns",
   "title": "Time series average",
   "description": "A simple algorithm that takes a time series input table and averages its values on the time axis",
-  "profile": "opends-algorithm",
+  "profile": "datakit-algorithm",
   "code": "algorithm.py",
-  "container": "opends/python-run-base:v0",
+  "container": "datakits/python-run-base:v0",
   "signature": {
     "inputs": [
       {

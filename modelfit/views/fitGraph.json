@@ -2,7 +2,7 @@
   "name": "fitGraph",
   "specType": "matplotlib",
   "specFile": "fitGraph.py",
-  "container": "opends/python-run-base:v0",
+  "container": "datakits/python-run-base:v0",
   "resources": [
     "data",
     "fit"

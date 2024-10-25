@@ -2,9 +2,9 @@
   "name": "modelfit",
   "title": "Model fitting example",
   "description": "A simple model fitting algorithm demonstrating relationships",
-  "profile": "opends-algorithm",
+  "profile": "datakit-algorithm",
   "code": "algorithm.py",
-  "container": "opends/python-run-base:v0",
+  "container": "datakits/python-run-base:v0",
   "signature": {
     "inputs": [
       {
