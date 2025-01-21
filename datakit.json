@@ -10,12 +10,14 @@
     "modelfit",
     "metaschemas"
   ],
-  "runs": [],
+  "runs": [
+    "addition.run"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/open-datakit/helloworld-datakit",
-    "name": "open-datakit/helloworld-datakit"
+    "url": "https://github.com/opendatastudio/helloworld-datakit",
+    "name": "opendatastudio/helloworld-datakit"
   },
   "created": 1727422563,
-  "updated": 1729468998
+  "updated": 1729832057
 }
